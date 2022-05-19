@@ -1,0 +1,19 @@
+@import "./index.scss";
+.ui.form {
+  .ui.input {
+    border: 1.5px solid $border-grey-light;
+    border-radius: 5px;
+    font-size: 14px;
+    color: $background-dark;
+  }
+  .actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .ui.button.submit {
+    color: $font-light;
+    margin: 0;
+    border: 2px solid rgb(129, 3, 81);
+  }
+}

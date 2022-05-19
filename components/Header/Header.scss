@@ -1,0 +1,7 @@
+.header {
+  position: relative;
+  box-shadow: 0 -10px 10px 10px rgba(158, 158, 158, 0.5);
+  -webkit-box-shadow: 0 -10px 10px 10px rgba(158, 158, 158, 0.5); //prefijo para el dieño de  internet explorer
+  -moz-box-shadow: 0 -10px 10px 10px rgba(158, 158, 158, 0.5); //prefijo para el dieño de mozila
+  z-index: 1;
+}

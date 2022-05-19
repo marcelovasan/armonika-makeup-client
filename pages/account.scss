@@ -1,0 +1,29 @@
+.account {
+  border-radius: 20px !important;
+  &__configuration,
+  &__addresses {
+    position: relative;
+    padding: 15px;
+
+    .title {
+      width: max-content;
+      background-color: $background-dark-absolute;
+      color: $font-light;
+      padding: 10px 10px; //5px de espacio de top y button y 10 px de height y witch
+      border-radius: 10px 10px 0px 0px;
+    }
+    .data {
+      background-color: $background-pink;
+      box-shadow: 1px 1px 2px 0 rgba(151, 3, 114, 0.1);
+    }
+  }
+  &__addresses {
+    .title {
+      i {
+        position: absolute;
+        right: 10px;
+        color: $font-dark;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+//importaciones globales de layouts aca todas las importaciones para no generar un error en el codigo
+//importacion de colores para el layout
+@import "./colors.scss";
+
+//layouts
+@import "../layouts/BasicLayout/BasicLayout.scss";
+
+//Pages
+@import "../pages/index.scss";
+@import "../pages/product/classes.scss";
+@import "../pages/account.scss";
+@import "../pages/wishlist.scss";
+@import "../pages/search.scss";
+@import "../pages/cart.scss";
+//scss de la carpeta componens
+@import "../components/Header/Header.scss";
+@import "../components/Header/TopBar/TopBar.scss";
+@import "../components/Header/Menu/Menu.scss";
+@import "../components/Modal/BasicModal/BasicModal.scss";
+@import "../components/Auth/LoginForm/LoginForm.scss";
+@import "../components/account/ChangeNameForm/ChangeNameForm.scss";
+@import "../components/account/ChangeEmailForm/ChangeEmailForm.scss";
+@import "../components/account/ChangePasswordForm/ChangePasswordForm.scss";
+@import "../components/account/AddressForm/AddressForm.scss";
+@import "../components/account/ListAddress/ListAddress.scss";
+@import "../components/listProduct/ListProduct.scss";
+@import "../components/Pagination/Pagination.scss";
+@import "../components/Product/HeaderProduct/HeaderProduct.scss"; //Header del producto
+@import "../components/Product/TabsProduct/TabsProduct.scss"; //taps del producto
+@import "../components/Product/InfoProduct/InfoProduct.scss"; //detalles de productos
+@import "../components/Product/CarouselScreenshot/CarouselScreenshot.scss"; //cousrusel de imagenes
+@import "../components/Cart/SummaryCart/SummaryCart.scss";

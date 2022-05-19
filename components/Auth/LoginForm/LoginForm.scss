@@ -1,0 +1,24 @@
+.content {
+  background-color: #fdedf5 !important;
+  margin: 5%, 5%, 5%, 5% !important;
+  .login-form {
+    margin: 5%, 5%, 5%, 5% !important;
+    .actions {
+      display: flex !important;
+      justify-content: center !important;
+      .ui.button {
+        max-width: 100% !important;
+        margin: 1.05% !important;
+      }
+      .ui.button.submit {
+        border-color: 2px solid black;
+        border-radius: 15.8px !important;
+        background-color: $background-button-purple;
+        color: black !important;
+      }
+      .ui.button.button {
+        background-color: none !important;
+      }
+    }
+  }
+}

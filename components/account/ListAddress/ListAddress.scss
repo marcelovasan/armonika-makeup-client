@@ -1,0 +1,29 @@
+.list-address {
+  padding: 10px 5px;
+  .address {
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    border: 2px solid $border-pink-light;
+    border-radius: 10px;
+    p {
+      margin-bottom: 5px;
+      //el primero que encuentres de la lista de parrafos pon este estilo de texto
+      &:first-of-type {
+        color: $primary;
+        font-weight: bold;
+        border-bottom: 2px solid $border-pink-light;
+        margin-bottom: 5px;
+        font-size: 18px;
+      }
+    }
+    .actions {
+      text-align: center;
+      margin-top: 15px;
+      .editar {
+        margin-bottom: 5px;
+        background-color: $background-button-purple;
+        color: $font-light;
+      }
+    }
+  }
+}

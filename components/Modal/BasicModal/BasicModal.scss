@@ -1,0 +1,31 @@
+.basic-modal {
+  width: 25%;
+  margin-left: 2% !important;
+  margin-right: 2% !important;
+  @media (max-width: 500px) {
+    width: 90% !important;
+  }
+  .header {
+    background-color: $background-pink !important;
+    display: flex !important;
+    justify-content: center;
+    span,
+    i {
+      color: $background-dark-absolute !important;
+    }
+    i {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      font-size: 20px;
+      margin: 0;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .icon {
+      align-content: flex-end !important;
+      align-items: flex-end !important;
+    }
+  }
+}

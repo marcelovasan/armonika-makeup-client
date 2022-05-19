@@ -1,0 +1,29 @@
+.change-email-form {
+  padding: 20px 15px; //espacio de los textos
+  border: 2px solid $border-pink-light;
+  border-radius: 10px;
+  margin: 0 10px 10px 10px;
+  > h4 {
+    color: $primary;
+    font-size: 18px;
+    text-align: center;
+    > span {
+      font-weight: 100;
+      font-size: 15px;
+      color: $background-grey-dark;
+    }
+  }
+
+  > form {
+    text-align: center;
+
+    .submit {
+      padding: 12px 60px;
+      background-color: $background-button-purple;
+    }
+
+    input {
+      background: white !important;
+    }
+  }
+}
